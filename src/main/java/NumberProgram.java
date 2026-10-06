@@ -1,7 +1,15 @@
 public class NumberProgram {
 
     public static int findResult(int[] values) {
-        // Method implementation would depend on the desired operation.
-        return 0;
+        int largest = values[0];
+
+        for (int value : values) {
+            if (value > largest) {
+                largest = value;
+            }
+        }
+
+        return largest;
     }
+
 }
