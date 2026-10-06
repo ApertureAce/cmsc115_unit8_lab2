@@ -1,24 +1,27 @@
 # Reflection – AI Number Program Lab
 
 ##  Student Name:
-(Enter your name here)
+Hayden Bourgeois
 
 ##  GitHub Repository Link:
-(Insert your repository URL here)
+https://github.com/ApertureAce/cmsc115_unit8_lab2
 
 ## Iteration 1
 
 What the AI code does:
--
+- The AI code does absolutely nothing except return 0 in the findResult() method.
 
 Tests passed/failed:
--
+- testBasicArray()
+- testEmptyArray()
+- testSingleValue()
+- testNegativeNumbers()
 
 What surprised you:
--
+- I was not surprised by all the tests failing. The program has no functionality at this moment.
 
 Commit message:
--
+- 
 
 ---
 
