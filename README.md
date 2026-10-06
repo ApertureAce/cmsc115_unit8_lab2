@@ -46,21 +46,27 @@ Commit message:
 ## Iteration 3
 
 Final behavior:
--
+- Program firsts checks if values.length == 0, if so, it returns Java's default MIN_VALUE final int.
 
 What was fixed:
--
+- The program can now evaluate an empty array without exceptions/errors.
 
 What you learned:
--
+- Given accurate and precisely worded, prompts Generative AIs can quickly generate code for tasks that are tedious and menial. 
 
 Commit message:
--
+- Iteration 3: final version passing all tests
 
 ---
 
 ## Final Reflection
 
 - How did AI responses change across prompts?
+
+The AI wasn't entirely sure what connection was being made between the first and second iterations. The AI created a new method altogether on Iteration 2 called, 'findLargest' because the prompt didn't specify was changes were being made. On iteration 3, I specified the current working code, which the AI had no issues with filling generating code for the rest of the program's requirements.
 - How did testing affect your changes?
+
+Testing affected my changes because I was also confused about what was expected of the program. After inspecting the test file, I realized that findResult was the only method being tested, so I deduced that 'findLargest()' was actually supposed to be part of 'findResult()'. With that in mind, I made the appropriate changes.
 - What did version control help you understand?
+
+Version control gave me a better understanding of the workflow for commit and push. It also gave me a better understanding of the difference between a "commit" and a "push." Now, I think I have a better understanding of how Version Control works as a concept.
